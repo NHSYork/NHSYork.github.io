@@ -1,6 +1,4 @@
-# Fixing Broken Care Journeys: an INTEROPen Hackathon
 _by Anne Jessop_
-
 ### [#FHIRHack19](https://twitter.com/hashtag/FHIRHack19)
 A team of 3 developers from York Teaching Hospital NHS Foundation Trust attended the Leeds INTEROPen hackathon on 14-15 October 2019.
 
