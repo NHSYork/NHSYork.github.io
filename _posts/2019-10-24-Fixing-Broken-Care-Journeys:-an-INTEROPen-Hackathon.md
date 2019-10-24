@@ -1,6 +1,6 @@
-_by Anne Jessop_
-### [#FHIRHack19](https://twitter.com/hashtag/FHIRHack19)
 A team of 3 developers from York Teaching Hospital NHS Foundation Trust attended the Leeds INTEROPen hackathon on 14-15 October 2019.
+
+### [#FHIRHack19](https://twitter.com/hashtag/FHIRHack19)
 
 Our focus for the two days was Medicines Reconciliation. As an Acute Trust, we were most interested in receiving data from GP software and being able to accurately and quickly ensure that all the drugs that the patient is taking are reconciled on our system.
 
@@ -61,6 +61,7 @@ When a row in the list is clicked, it automatically navigates to the new drug sc
 ![Decision Support](/img/Hackathon2019/decision_suppport.png){: .center-block :}
 
 Over the two days we got to meet people with different areas of expertise, and were able to learn a lot of exciting things about how system interopability is improving. By talking to people from NHS digital, we developed a much better understanding of SNOMED data structure which will help us not just with medicines reconciliation, but also diagnoses and allergies reconciliation.
-
 # The Future
 To take this exciting project forward, we are part way through the on boarding process with GP Connect, and we are developing our infrastructure for consuming the data via APIs. Once this is done, we can use some of the workings from our Hackathon days to integrate GP Medications in to our EPMA system, and realise the benefits listed.
+
+_by Anne Jessop_
