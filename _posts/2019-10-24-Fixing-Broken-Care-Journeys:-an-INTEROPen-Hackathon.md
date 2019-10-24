@@ -1,9 +1,11 @@
 # Fixing Broken Care Journeys: an INTEROPen Hackathon
 _by Anne Jessop_
+
 ### [#FHIRHack19](https://twitter.com/hashtag/FHIRHack19)
 A team of 3 developers from York Teaching Hospital NHS Foundation Trust attended the Leeds INTEROPen hackathon on 14-15 October 2019.
 
 Our focus for the two days was Medicines Reconciliation. As an Acute Trust, we were most interested in receiving data from GP software and being able to accurately and quickly ensure that all the drugs that the patient is taking are reconciled on our system.
+
 ## Patient Safety Benefits
 Prescribers would have access to medication related information at all times, which would mean a reduction in:
 * Essential drugs not prescribed
@@ -11,8 +13,10 @@ Prescribers would have access to medication related information at all times, wh
 * Wrong doses and frequencies prescribed
 * Missed and delayed doses, including critical and time-critical meds
 * Transcription errors by prescribers and pharmacy staff
+
 ## Time Savings
 The number of transcriptions by pharmacy staff would decrease as prescribers would have the admission medication details from the beginning. The time that it takes to transcribe drugs from Summary Care Records (SCR) to our Electronic Prescribing system (EPMA) differs depending on the number of drugs that need transcribing. It would take the average person approximately 15 to 25 secs to enter each drug if a suggested dose exists for it, a little longer if not. Also to add to this, is the time for interpretation of the SCR prior to transcribing.
+
 ## Excitingly, over the two days we managed to develop a working solution!
 There are still some things to work out for a seamless interaction, but it is definitely a huge step in the right direction.
 
@@ -24,6 +28,7 @@ Things we learned:
 * GP systems do not include medication route (e.g. oral). While most products are designed for exactly one route, there are a few that have more than one route option (Ciprofloxacin drops can be given to eyes or ears), and we will have to handle them in our system.
 
 Even without being able to map the dose, however we are still able to map the drug product from the SNOMED product identifier to the virtual drug-formulation-route which we prescribe with in the hospital.
+
 # Our Workings:
 One of the things that went extremely well was that it didn’t take us long to be able to receive data from the EMIS Health test server. EMIS had brought a large team and had set up a working API using GP Connect standards. After a few minor connection issues, we were able to request and receive data for any chosen test patient in under an hour.
 
@@ -41,6 +46,7 @@ With the knowledge that it would be possible to fully match the prescription dos
 We used the FDB Multilex mapping tables to convert the SNOMED product identifier into the FDB product identifier, and then converted it to a virtual drug-formulation-route medication.
 
 We usually prescribe using generic (non-branded) drugs, except when the bioavailabilities differ between brands. The FDB tables include a flag to show when a drug must be prescribed using the branded form, so we are able to map it to the branded drug-formulation-route where necessary.
+
 # Our Solution:
 With the drugs mapped to the drug-formulation-route state we use for prescribing, we created an interactive list in the application. The list displays the drug-formulation-route and the free text dose. We realise that we would also need to display the product strength for the dose and frequency to make sense, but for the purposes of the demo we displayed the drug as we would prescribe it.
 
@@ -57,5 +63,6 @@ When a row in the list is clicked, it automatically navigates to the new drug sc
 ![Decision Support](/img/Hackathon2019/decision_suppport.png){: .center-block :}
 
 Over the two days we got to meet people with different areas of expertise, and were able to learn a lot of exciting things about how system interopability is improving. By talking to people from NHS digital, we developed a much better understanding of SNOMED data structure which will help us not just with medicines reconciliation, but also diagnoses and allergies reconciliation.
+
 # The Future
 To take this exciting project forward, we are part way through the on boarding process with GP Connect, and we are developing our infrastructure for consuming the data via APIs. Once this is done, we can use some of the workings from our Hackathon days to integrate GP Medications in to our EPMA system, and realise the benefits listed.
