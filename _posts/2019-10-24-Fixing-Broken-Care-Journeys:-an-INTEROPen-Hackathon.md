@@ -64,6 +64,6 @@ Over the two days we got to meet people with different areas of expertise, and w
 # The Future
 To take this exciting project forward, we are part way through the on boarding process with GP Connect, and we are developing our infrastructure for consuming the data via APIs. Once this is done, we can use some of the workings from our Hackathon days to integrate GP Medications in to our EPMA system, and realise the benefits listed.
 
-![Group Photo](/img/Hackathon2019/group_photo.png){: .center-block :}
+![Group Photo](/img/Hackathon2019/group_photo.jpg){: .center-block :}
 
 _by Anne Jessop_
