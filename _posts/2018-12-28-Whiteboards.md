@@ -112,19 +112,19 @@ During a "board round" or huddle, a user can log in using their normal Single Si
 
 ### Transfers Board
 
-![Transfers.JPG](/img/Transfers.JPG)
+![Transfers.jpg](/img/Transfers.jpg)
 
 This screen gives an overview of the whole hospital or specialty, showing a patients current location along with their intended destination location. It includes patients in the Emergency Department and patients who are being admitted directly from their GP. The board indicates when the patient is ready for transfer and how long they have been waiting. It also highlights available beds though the hospital.
 
 ### Departures
 
-![departures.JPG](/img/departures.JPG)
+![departures.jpg](/img/departures.jpg)
 
 The departures board is more interactive than most of our other electronic bards, having a number of parameters allow users to search for patients meeting specific criteria.
 
 #### Some Site Photos 
 
-![EDphoto.JPG](/img/EDphoto.JPG)
+![EDphoto.jpg](/img/EDphoto.jpg)
 Nursing Station in Emergency Department Showing the ED Board on the large screen.
 
 ![bedoffc.jpg ](/img/bedoffc.jpg)
