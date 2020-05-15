@@ -17,7 +17,7 @@ These systems are designed to support the specific care of individual patients a
 There is a display board that shows all patient within the Emergency Department (ED). This can be launched with a location parameter to show a shorter list of patients to those staff in that area, whereas others will show full lists of ED patients.
 So for example here we can see the patients waiting in the Ambulance arrivals area.
 
-![EDAmbulance.jpg]({{site.baseurl}}/img/EDAmbulance.jpg)
+![EDAmbulance.jpg](/img/EDAmbulance.jpg)
 
 The board shows:
 - The cubicle in which the patient is located
