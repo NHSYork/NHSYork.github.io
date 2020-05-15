@@ -43,7 +43,7 @@ Most of the data items have pop up tooltips or the users can drill downs to see 
 
 The Arrivals Boards are loacted within the admitting ward areas and the control room as "permenantly on" displays. They show patients that are on their way to the wards as well as patients already admitted onto a ward. They clearly show the status of a patient in relation to their being seen by an admitting doctor. This is a key safety factor in ensuring patients get seen quickly and don't get missed.
 
-![arrivalsbd.png]({{site.baseurl}}/img/arrivalsbd.png)
+![arrivalsbd.png](/img/arrivalsbd.png)
 
 The screens can be configured to show specific specialties, groups of specialties or all patients. 
 
@@ -61,13 +61,13 @@ The board shows:
 We stream data to an Oracle 11gR2 database using Oracle Streams. We have a transformation process which runs every 15 minutes that updates the "real time" data that is displayed in this screen. This shows the position in relation to attendances to the Emergency Department and admissions and discharges within the two acute hospitals.
 Current statistics are shown alongside averaages, upper and lower control limits based on activity data over the preceeding two years. Colour coding is used to give a quick indication of the state of the hospital.
 
-![edactivitybd.png]({{site.baseurl}}/img/edactivitybd.png)
+![edactivitybd.png](/img/edactivitybd.png)
 
 ### Bed Status
 This board shows the bed stock of the Hospitals (only one shown in the screenshot below)
 Bed managers can see the location of available beds, if they are male or female and the numbers of expected discharges today and tomorrow.
 
-![bedstock.JPG]({{site.baseurl}}/img/bedstock.JPG)
+![bedstock.JPG](/img/bedstock.JPG)
 
 Clicking the ward shorname/number will drill down into the Ward Whiteboard so they can review the detailed position on each ward.
 The screen auto-refreshes every ten minutes, but can be manually refreshed.
@@ -76,7 +76,7 @@ The screen auto-refreshes every ten minutes, but can be manually refreshed.
 These screens were not written in Oracle APEX, but were created using java server pages and oracle reports server. It's not how we would do them today, but they have been robust and stood the test of time.
 There are one or two of these screens on each ward, they are set up on PCs that are always on and auto-start directly to the whiteboard screen.
 
-![origwhiteboard.png]({{site.baseurl}}/img/origwhiteboard.png)
+![origwhiteboard.png](/img/origwhiteboard.png)
 
 The screen shows an approximate layout of the ward and clearly identifies the occupied beds as well as patients who have arrived but have not yet been allocated to a bed. The screenshot above is from our test database and is from a presentation we did in 2007. The screens were first put live in 2006 and are still in use. You can see the patient, which consultant is responsible for their care, which nursing team and some clinical information such as their NEWS, diabetes flags etc.
 On the current version you can drill down to see their nursing observations chart.
@@ -85,7 +85,7 @@ On the current version you can drill down to see their nursing observations char
 
 The Patient Board is the main working list for a Ward within the hospital. It is used to highlight the current status of a patient in relation to health indicators and activity. 
 
-![PatientBoard.JPG]({{site.baseurl}}/img/PatientBoard.JPG)
+![PatientBoard.JPG](/img/PatientBoard.JPG)
 
 As with the ED Board there are indicators for Patients with Diabetes, Frailty, Dementia, Ceiling of Care etc. The board also shows the following which are pulled directly from the electronic patient record:
 
@@ -112,25 +112,25 @@ During a "board round" or huddle, a user can log in using their normal Single Si
 
 ### Transfers Board
 
-![Transfers.JPG]({{site.baseurl}}/img/Transfers.JPG)
+![Transfers.JPG](/img/Transfers.JPG)
 
 This screen gives an overview of the whole hospital or specialty, showing a patients current location along with their intended destination location. It includes patients in the Emergency Department and patients who are being admitted directly from their GP. The board indicates when the patient is ready for transfer and how long they have been waiting. It also highlights available beds though the hospital.
 
 ### Departures
 
-![departures.JPG]({{site.baseurl}}/img/departures.JPG)
+![departures.JPG](/img/departures.JPG)
 
 The departures board is more interactive than most of our other electronic bards, having a number of parameters allow users to search for patients meeting specific criteria.
 
 #### Some Site Photos 
 
-![EDphoto.JPG]({{site.baseurl}}/img/EDphoto.JPG)
+![EDphoto.JPG](/img/EDphoto.JPG)
 Nursing Station in Emergency Department Showing the ED Board on the large screen.
 
-![bedoffc.jpg ]({{site.baseurl}}/img/bedoffc.jpg)
+![bedoffc.jpg ](/img/bedoffc.jpg)
 A wall of the Operations Control Centre showing large screens configured to show Patient Boards for the entire hospital.
 
-![IMG-20170521-WA0000.jpg]({{site.baseurl}}/img/IMG-20170521-WA0000.jpg)
+![IMG-20170521-WA0000.jpg](/img/IMG-20170521-WA0000.jpg)
 Another view showing boards. 
 The Dark blue screen is the Ambulance System - showing patients on their way to ED. This is not our system, but is supplied by the Yorkshire Ambulance Service.
 
