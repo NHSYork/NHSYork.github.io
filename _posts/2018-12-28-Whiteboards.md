@@ -67,7 +67,7 @@ Current statistics are shown alongside averaages, upper and lower control limits
 This board shows the bed stock of the Hospitals (only one shown in the screenshot below)
 Bed managers can see the location of available beds, if they are male or female and the numbers of expected discharges today and tomorrow.
 
-![bedstock.JPG](/img/bedstock.JPG)
+![bedstock.JPG](/img/bedstock.jpg)
 
 Clicking the ward shorname/number will drill down into the Ward Whiteboard so they can review the detailed position on each ward.
 The screen auto-refreshes every ten minutes, but can be manually refreshed.
@@ -85,7 +85,7 @@ On the current version you can drill down to see their nursing observations char
 
 The Patient Board is the main working list for a Ward within the hospital. It is used to highlight the current status of a patient in relation to health indicators and activity. 
 
-![PatientBoard.JPG](/img/PatientBoard.JPG)
+![PatientBoard.JPG](/img/PatientBoard.jpg)
 
 As with the ED Board there are indicators for Patients with Diabetes, Frailty, Dementia, Ceiling of Care etc. The board also shows the following which are pulled directly from the electronic patient record:
 
